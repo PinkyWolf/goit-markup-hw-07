@@ -1,0 +1,30 @@
+.contacts .link-decor-footer {
+  margin-bottom: 9px;
+  height: 21px;
+}
+.link-decor-footer {
+  display: block;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-color);
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts-link {
+  display: inline-block;
+  height: 21px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.map .link-decor-footer {
+  color: var(--third-text-color);
+}
+.contacts-link {
+  color: rgba(255, 255, 255, 0.6);
+}
