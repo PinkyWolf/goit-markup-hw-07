@@ -6,6 +6,9 @@
   padding-right: 15px;
   list-style-type: none;
 }
+.project-list__link {
+  outline: none;
+}
 .project-card {
   width: 370px;
   height: 270px;
@@ -16,6 +19,7 @@
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
+  outline: none;
 }
 .project-card {
   position: relative;

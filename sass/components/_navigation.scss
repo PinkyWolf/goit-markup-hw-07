@@ -7,6 +7,7 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var (var(--secondary-text-color));
+  outline: none;
 }
 .title-properties {
   font-family: Raleway;
@@ -19,6 +20,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
   &__list {
     align-items: center;
     display: flex;
@@ -32,8 +34,8 @@
   &__item {
     list-style-type: none;
   }
-  &__item .link-decor:hover,
-  &__item .link-decor:focus {
+  &__item &__link:hover,
+  &__item &__link:focus {
     color: var(--primary-text-color);
   }
   &__svg {
@@ -56,11 +58,13 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--header-color);
+    outline: none;
 
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  &__link:hover {
+  &__link:hover,
+  &__link:focus {
     color: var(--primary-text-color);
   }
   &__link.current {
@@ -92,6 +96,6 @@
 .nav-cont .navigation__item + .navigation__item {
   margin-left: 50px;
 }
-.link-decor-footer :hover {
+.link-decor-footer:hover {
   color: var(--primary-text-color);
 }

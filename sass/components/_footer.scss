@@ -13,7 +13,7 @@
   margin-right: auto;
   margin-left: auto;
 }
-.contacts {
+.footer-list {
   list-style-type: none;
 
   &__title {
@@ -31,4 +31,5 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--third-text-color);
+  outline: none;
 }
