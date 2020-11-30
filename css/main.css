@@ -12,7 +12,7 @@
 }
 
 .header {
-  width: 100%;
+  min-width: 100%;
   border-bottom: 1px solid var(--header-line-color);
   background: var(--third-text-color);
 }
@@ -24,7 +24,7 @@
 
 .title {
   margin-top: 50px;
-  font-family: Raleway;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -34,7 +34,7 @@
 }
 
 .title-properties {
-  font-family: Raleway;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 26px;
   color: var(--primary-text-color);
@@ -743,7 +743,7 @@
 #contacts {
   display: flex;
   height: 252px;
-  width: 100%;
+  min-width: 100%;
   background: var(--primary-bg-color);
 }
 
@@ -771,7 +771,7 @@
 }
 
 .footer__title {
-  font-family: Raleway;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
