@@ -8,10 +8,7 @@
   --header-color: #212121;
   --secondary-bg-color: #f5f4fa;
   --header-line-color: #ececec;
-}
-
-body {
-  font-family: Roboto, sans-serif;
+  --main-font: Roboto, sans-serif;
 }
 
 .header {

@@ -8,10 +8,7 @@
   --header-color: #212121;
   --secondary-bg-color: #f5f4fa;
   --header-line-color: #ececec;
-}
-
-body {
-  font-family: Roboto, sans-serif;
+  --main-font: Roboto, sans-serif;
 }
 
 .header {
@@ -525,7 +522,7 @@ body {
   height: 386px;
 }
 
-.gallery___title {
+.gallery__title {
   display: block;
   text-align: center;
   padding-bottom: 50px;
