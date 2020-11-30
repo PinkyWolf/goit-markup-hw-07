@@ -20,8 +20,11 @@
 }
 .gallery-list {
   display: flex;
-  width: calc((100% - 60px) / 3);
   list-style: none;
+
+  &__item {
+    width: calc(100% / 3 -30px);
+  }
 
   &__image {
     height: 294px;

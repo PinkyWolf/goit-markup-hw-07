@@ -537,8 +537,11 @@
 
 .gallery-list {
   display: flex;
-  width: calc((100% - 60px) / 3);
   list-style: none;
+}
+
+.gallery-list__item {
+  width: calc(100% / 3 -30px);
 }
 
 .gallery-list__image {
